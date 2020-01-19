@@ -46,7 +46,7 @@ public class Init extends javax.swing.JFrame {
             }
         });
 
-        JCBRows.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "3", "4", "5", "6" }));
+        JCBRows.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "6", "5", "4", "3" }));
         JCBRows.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JCBRowsActionPerformed(evt);

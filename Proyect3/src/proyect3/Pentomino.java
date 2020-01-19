@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 public class Pentomino extends JFrame{
     
     private Board board;
-    private int filas,columnas;
+    public static int filas,columnas;
 
     public Pentomino(Object n, Object m) {
         super("PENTONIMO");

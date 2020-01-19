@@ -4,9 +4,8 @@ package proyect3;
 /*
  * CLASE Casilla
  */
-public class Square {
-
-    private boolean ocupada;
+public class Square implements Cloneable{
+    
     int x, y, value;
     
     /**
@@ -20,27 +19,7 @@ public class Square {
         this.x = x;
         this.y = y;
         this.value = value;
-        ocupada = true;
     }
-    /**
-     * pone la casilla en estado vacio --> ocupado=false
-     */
-    public void setLiberada() {
-        ocupada = false;
-
-    }
-    
-    /**
-     * Devuelve true si la casilla está ocupada. Devuelve false si la casilla está
-     * libre.
-     *
-     * @return ocupada
-     */
-    boolean estado() {
-        return ocupada;
-
-    }
-
     public int getX() {
         return x;
     }
